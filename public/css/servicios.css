@@ -1,0 +1,316 @@
+
+.week-free {
+    padding: 0 200px 50px;
+    display: flex;
+    background-color: #f8e2d5;
+}
+.form-week-free {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color:#FFF3EC;
+    color: #2d2f69;
+    border-radius: 10px 0 0 10px;
+}
+
+.form-week-free p {
+    font-size: 20px;
+}
+
+.form-week-free form button {
+    height: 40px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.image-week-free {
+    width: 50%;
+    display: flex;
+    border-radius: 0 10px 10px 0;
+    background-color:#FFF3EC;
+    justify-content: center;
+
+}
+
+.image-week-free img {
+    width: 100%;
+    max-width: 435px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+
+
+.container-servicios {
+    padding: 50px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF3EC;
+    color: #2A2A2A;
+}
+
+.text-servicios {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.text-servicios h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #293343;
+}
+
+.text-servicios p {
+    padding: 25px 0;
+    font-weight: 300;
+    color: #293343;
+}
+
+.select-plan p {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0;
+    color: #f1f1f1;
+}
+
+.choose-plan {
+    text-align: center;
+    padding: 10px 0 25px;
+    font-size: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card-top {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+}
+
+
+.card-under ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 15px 25px;
+    align-items: center ;
+}
+
+.card-under ul li {
+    font-size: 16px;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-under ul li svg {
+    height: 12px;
+    fill:#EB8323;
+}
+
+.card-under-cta {
+    /* padding: 10px; */
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    background: #10182F
+}
+
+.card-under-cta a {
+    text-decoration: none;
+    color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+}
+
+.card-top-img span {
+    font-size: 50px;
+}
+
+
+
+.title-card {
+    font-size: 18px;
+    font-weight: 800;
+    color: #293343
+}
+
+.price-card {
+    font-weight: 900;
+    font-size: 30px;
+    color: #293343
+}
+
+.card-under-cta a p {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card-top-img span {
+    color: #EB8323;
+}
+
+.container-cards {
+    display: flex;
+    column-gap: 2em;
+    justify-content: space-between;
+}
+
+
+.text-personalizada {
+    padding: 30px 200px;
+    background-color: #f8e2d5;
+    color: #2A2A2A;
+}
+
+.form-group input {
+    height: 40px;
+    padding: 10px 0 20px;
+}
+
+.form-group-select {
+    padding: 10px 0;
+}
+.form-group select {
+    height: 40px;
+}
+
+
+
+@media (max-width:1100px) {
+    .text-personalizada {
+        padding: 30px 100px 0;
+    }
+    .container-servicios {
+        padding: 50px 100px;
+    }
+    .week-free {
+        padding: 50px 100px;
+    }
+} 
+
+@media (max-width:950px) {
+
+    .week-free {
+        padding: 50px 30px;
+    }
+    .container-servicios {
+        padding: 50px 30px;
+    }
+    .text-personalizada {
+        padding:30px 30px 0;
+    }
+    .container-cards {
+        column-gap: 1em;
+    }
+    .card-under ul li {
+        font-size: 12px;
+    }
+    .card-under ul {
+        font-size: 10px;
+    }
+
+    
+}
+
+@media (max-width:768px) {
+
+    .week-free {
+        padding: 50px 65px;
+    }
+
+    .form-week-free {
+        width: 100%;
+    }
+    .image-week-free {
+        display: none;
+    }
+    .image-week-free {
+        display: none;
+    }
+
+    .container-cards {
+        flex-direction: column;
+        padding: 0 35px;
+        row-gap: 1em;
+    }
+
+    .text-personalizada {
+        padding: 30px 70px 0;
+    }
+    /* .choose-plan {
+        padding: 0 35px;
+    } */
+    .text-servicios {
+        padding: 100px 30px 0;
+    }
+}
+
+@media (max-width: 450px){
+    .container-servicios {
+        padding: 30px 0px;
+        }
+
+    .week-free {
+        padding: 30px 35px;
+    }
+    .text-personalizada {
+        padding: 30px 35px 0;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+.card-top {
+    background: #fff;
+}
+
+.card-under {   
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+}
+.card-under-cta a {
+    background-color: #EB8323;
+    border-radius: 10px;
+}
+
+.second-price-card {
+    font-size: 12px;
+}
+
+.text-personalizada a {
+    text-decoration: none;
+    color: #EB8323;
+}
+
+.btn {
+    background-color: #EB8323 ;
+    border: none;
+    cursor: pointer;
+    color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.container-wf {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}

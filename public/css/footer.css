@@ -1,0 +1,164 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.container-footer {
+    background-color: #102247;
+    min-height: 400px;
+    padding: 0 100px;
+}
+
+
+.content-footer-links {
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+}
+
+.container-content-footer {
+    column-gap: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 80px;
+    height: 330px;
+}
+
+.content-footer-redes {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    column-gap: 20px;
+}
+
+
+
+.content-footer-links ul {
+    list-style: none;
+    color: #cfcfcf;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.content-footer-links ul li a {
+    text-decoration: none;
+    color: #cfcfcf;
+}
+
+.title-list {
+    font-weight: bold;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 30px;
+}
+
+
+.logo-footer img {
+    width: 80px;
+}
+
+.letras-footer img {
+    width: 120px;
+    padding-top: 12px;
+}
+
+
+
+
+
+
+.sub-entrada {
+    display: flex;
+}
+
+.content-footer-sub p {
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.sub-entrada input {
+    height: 50px;
+    width: 220px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.sub-entrada button {
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: #FF7547;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+}
+
+.sub-entrada button:hover {
+    background-color: #cc6441;
+}
+
+
+.svg-ig {
+    width: 30px;
+    fill: #cfcfcf;
+}
+
+.svg-fb {
+    width: 30px;
+    fill: #cfcfcf;
+}
+
+.svg-yt {
+    width: 35px;
+    fill: #cfcfcf;
+}
+
+#selected {
+    font-weight: 800;
+    color: orange;
+}
+
+
+
+
+@media (max-width: 990px){
+
+    .container-content-footer {
+        flex-direction: column;
+        height: auto;
+        row-gap: 50px;
+    }
+
+    .content-footer-links {
+        justify-content: flex-start;
+    }
+
+    #linksServicios {
+        display: none;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .sub-entrada input {
+        width: 100%;
+    }
+    
+    .container-footer { 
+        padding: 0 30px;
+     } 
+    .container-content-footer {
+        padding: 40px 0 20px;
+    }
+}
